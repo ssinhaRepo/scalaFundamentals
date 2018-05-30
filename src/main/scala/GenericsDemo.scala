@@ -4,9 +4,9 @@ class GenericClass[+T] (val value:T) {
 
 }
 
-class Person
+class OnePerson
 
-class Employee extends Person
+class Employee extends OnePerson
 
 
 
@@ -18,8 +18,8 @@ object GenericsDemo {
     genericTypeStr.printIt
 
     val p1 = new GenericClass(new Employee)
-    //Note Below: Person is a supertype of Employee, we had to use +T in GenericClass definition to be able to use this
-    val p2: GenericClass[Person] = p1
+    //Note Below: OnePerson is a supertype of Employee, we had to use +T in GenericClass definition to be able to use this
+    val p2: GenericClass[OnePerson] = p1
 
     p1.printIt
 

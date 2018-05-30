@@ -4,7 +4,7 @@
 		module="scalaforfun$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180525154859"
+		publication="20180530005211"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
